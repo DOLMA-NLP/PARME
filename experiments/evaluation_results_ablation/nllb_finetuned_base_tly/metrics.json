@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 2.9120321050156983,
+    "chrF": 20.702467474969694,
+    "num_examples": 1000,
+    "translation_time": 62.19111680984497,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 1.9814813643440592,
+    "chrF": 18.18450703149328,
+    "num_examples": 1000,
+    "translation_time": 56.64114284515381,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 5.573397286864523,
+    "chrF": 22.92046606822085,
+    "num_examples": 999,
+    "translation_time": 54.82909059524536,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 3.4307931033766432,
+    "chrF": 20.494368147112386,
+    "num_examples": 996,
+    "translation_time": 53.44404983520508,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 3.2254674550331486,
+    "chrF": 21.00782809452431,
+    "num_examples": 1000,
+    "translation_time": 48.62503170967102,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 5.116405779244354,
+    "chrF": 22.657076255247652,
+    "num_examples": 1000,
+    "translation_time": 54.2821159362793,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 1.3740428957709008,
+    "chrF": 18.441069831715147,
+    "num_examples": 1000,
+    "translation_time": 61.89642357826233,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 2.987715891746979,
+    "chrF": 20.721429410502452,
+    "num_examples": 1070,
+    "translation_time": 51.1881308555603,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_tly/ZZA_translations.tsv"
+  }
+}

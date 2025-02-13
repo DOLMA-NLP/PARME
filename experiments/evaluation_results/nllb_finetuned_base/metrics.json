@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 4.378952670290444,
+    "chrF": 22.165943246112114,
+    "num_examples": 1000,
+    "translation_time": 65.8008623123169,
+    "translations_file": "evaluation_results/nllb_finetuned_base/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 2.729761193101015,
+    "chrF": 20.049508159738483,
+    "num_examples": 1000,
+    "translation_time": 65.60634922981262,
+    "translations_file": "evaluation_results/nllb_finetuned_base/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 8.230663788934296,
+    "chrF": 27.44521217119955,
+    "num_examples": 999,
+    "translation_time": 61.50642108917236,
+    "translations_file": "evaluation_results/nllb_finetuned_base/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 6.334017088853345,
+    "chrF": 24.632671518114826,
+    "num_examples": 996,
+    "translation_time": 58.43121385574341,
+    "translations_file": "evaluation_results/nllb_finetuned_base/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 5.234091073970369,
+    "chrF": 22.90532873288974,
+    "num_examples": 1000,
+    "translation_time": 59.01480054855347,
+    "translations_file": "evaluation_results/nllb_finetuned_base/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 9.932838029713185,
+    "chrF": 29.622861361664103,
+    "num_examples": 1000,
+    "translation_time": 55.03925132751465,
+    "translations_file": "evaluation_results/nllb_finetuned_base/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 3.007892939901972,
+    "chrF": 20.348114351476156,
+    "num_examples": 1000,
+    "translation_time": 64.4634804725647,
+    "translations_file": "evaluation_results/nllb_finetuned_base/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 3.4469532073011164,
+    "chrF": 22.89581297642722,
+    "num_examples": 1070,
+    "translation_time": 63.17901372909546,
+    "translations_file": "evaluation_results/nllb_finetuned_base/ZZA_translations.tsv"
+  }
+}

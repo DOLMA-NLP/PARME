@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 3.2462860109300373,
+    "chrF": 20.424503809736674,
+    "num_examples": 1000,
+    "translation_time": 63.09998345375061,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 3.667271123758681,
+    "chrF": 19.173010241568022,
+    "num_examples": 1000,
+    "translation_time": 59.511606216430664,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 16.535332892262026,
+    "chrF": 31.769254549345288,
+    "num_examples": 999,
+    "translation_time": 55.700557708740234,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 10.307208238063405,
+    "chrF": 26.54567707812848,
+    "num_examples": 996,
+    "translation_time": 57.67873001098633,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 5.511862583238393,
+    "chrF": 22.417363978324452,
+    "num_examples": 1000,
+    "translation_time": 53.52121591567993,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 10.83522502121075,
+    "chrF": 29.422268761420717,
+    "num_examples": 1000,
+    "translation_time": 52.796022176742554,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 6.983270918099983,
+    "chrF": 22.004895706302683,
+    "num_examples": 1000,
+    "translation_time": 57.518789291381836,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 2.886836555079076,
+    "chrF": 20.27102021592543,
+    "num_examples": 1070,
+    "translation_time": 52.214694023132324,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_II_improved/ZZA_translations.tsv"
+  }
+}

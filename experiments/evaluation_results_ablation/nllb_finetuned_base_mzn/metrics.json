@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 3.2364700085575775,
+    "chrF": 20.915581548812114,
+    "num_examples": 1000,
+    "translation_time": 61.122944831848145,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 2.387433380134929,
+    "chrF": 17.999461061759163,
+    "num_examples": 1000,
+    "translation_time": 57.0759391784668,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 5.482422629957352,
+    "chrF": 22.23268468258982,
+    "num_examples": 999,
+    "translation_time": 55.49351644515991,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 3.2741242421373014,
+    "chrF": 20.666120621375278,
+    "num_examples": 996,
+    "translation_time": 55.11298704147339,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 2.0450640382768657,
+    "chrF": 18.954552699968772,
+    "num_examples": 1000,
+    "translation_time": 51.97063899040222,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 4.893180181669293,
+    "chrF": 22.61951157751419,
+    "num_examples": 1000,
+    "translation_time": 53.28758764266968,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 3.219184352741162,
+    "chrF": 19.319372399334284,
+    "num_examples": 1000,
+    "translation_time": 183.9157018661499,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 3.146446889358274,
+    "chrF": 20.63271342034516,
+    "num_examples": 1070,
+    "translation_time": 236.02337288856506,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_mzn/ZZA_translations.tsv"
+  }
+}

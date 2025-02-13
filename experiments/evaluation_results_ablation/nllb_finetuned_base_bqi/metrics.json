@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 1.385454287237863,
+    "chrF": 18.51154606068303,
+    "num_examples": 1000,
+    "translation_time": 64.4190604686737,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 2.1711359390371907,
+    "chrF": 18.278931105339606,
+    "num_examples": 1000,
+    "translation_time": 57.541167974472046,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 4.451179216238821,
+    "chrF": 21.726054210775956,
+    "num_examples": 999,
+    "translation_time": 56.109503746032715,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 3.6631409672545696,
+    "chrF": 20.718725197376358,
+    "num_examples": 996,
+    "translation_time": 54.88370895385742,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 3.3076403403356034,
+    "chrF": 21.128716271225148,
+    "num_examples": 1000,
+    "translation_time": 49.483158349990845,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 4.711190866727653,
+    "chrF": 23.10683657804474,
+    "num_examples": 1000,
+    "translation_time": 53.192261934280396,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 3.281348841958198,
+    "chrF": 19.518850388345136,
+    "num_examples": 1000,
+    "translation_time": 55.22207593917847,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 2.954764366427184,
+    "chrF": 20.7306717509484,
+    "num_examples": 1070,
+    "translation_time": 52.65373754501343,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_bqi/ZZA_translations.tsv"
+  }
+}

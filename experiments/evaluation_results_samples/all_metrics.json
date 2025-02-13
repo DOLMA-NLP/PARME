@@ -1,0 +1,582 @@
+{
+  "nllb_finetuned_base_100": {
+    "BQI": {
+      "BLEU": 1.5684292003548845,
+      "chrF": 16.24317199361359,
+      "num_examples": 1000,
+      "translation_time": 80.99387717247009,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 0.8239057628575523,
+      "chrF": 14.786877583958228,
+      "num_examples": 1000,
+      "translation_time": 84.06798768043518,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 1.9246450328577935,
+      "chrF": 18.478524190441135,
+      "num_examples": 999,
+      "translation_time": 78.8138678073883,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 2.0750667498620903,
+      "chrF": 16.106893248301752,
+      "num_examples": 996,
+      "translation_time": 70.9210913181305,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.582188255779327,
+      "chrF": 18.29474562620755,
+      "num_examples": 1000,
+      "translation_time": 61.130446672439575,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 3.3443780213328336,
+      "chrF": 19.16461234623896,
+      "num_examples": 1000,
+      "translation_time": 67.70142388343811,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 1.5285017356652866,
+      "chrF": 16.280146187334253,
+      "num_examples": 1000,
+      "translation_time": 77.1983323097229,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.3248791284853305,
+      "chrF": 19.87716865232845,
+      "num_examples": 1070,
+      "translation_time": 69.5759825706482,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_100/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_200": {
+    "BQI": {
+      "BLEU": 1.337326724378706,
+      "chrF": 17.512546534627226,
+      "num_examples": 1000,
+      "translation_time": 89.35267972946167,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 0.8635796157378981,
+      "chrF": 16.3626370412969,
+      "num_examples": 1000,
+      "translation_time": 79.50358891487122,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 1.8597620891140894,
+      "chrF": 18.845395326728777,
+      "num_examples": 999,
+      "translation_time": 75.45240783691406,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 1.3753931542078706,
+      "chrF": 17.37768992642736,
+      "num_examples": 996,
+      "translation_time": 72.83214044570923,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 1.6496126206951538,
+      "chrF": 18.38793440015501,
+      "num_examples": 1000,
+      "translation_time": 67.06444931030273,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 2.3092634265153515,
+      "chrF": 19.0773279139038,
+      "num_examples": 1000,
+      "translation_time": 67.55546021461487,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 0.8546553088134144,
+      "chrF": 17.016140159009275,
+      "num_examples": 1000,
+      "translation_time": 76.97139978408813,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 1.2880009653392668,
+      "chrF": 17.100626455575206,
+      "num_examples": 1070,
+      "translation_time": 76.23124766349792,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_200/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_300": {
+    "BQI": {
+      "BLEU": 2.2709089479871833,
+      "chrF": 17.33766911458133,
+      "num_examples": 1000,
+      "translation_time": 69.94796657562256,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 1.0846782829130235,
+      "chrF": 15.932708956808773,
+      "num_examples": 1000,
+      "translation_time": 67.97084355354309,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 2.4999846973817355,
+      "chrF": 18.96679606322575,
+      "num_examples": 999,
+      "translation_time": 67.6523232460022,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 1.9375101084457684,
+      "chrF": 16.870819307241288,
+      "num_examples": 996,
+      "translation_time": 70.67428088188171,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.901179416388182,
+      "chrF": 19.2788169559898,
+      "num_examples": 1000,
+      "translation_time": 51.76348257064819,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 3.735014552107766,
+      "chrF": 19.947806656744838,
+      "num_examples": 1000,
+      "translation_time": 67.009192943573,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 1.7345544325676876,
+      "chrF": 17.079843196153487,
+      "num_examples": 1000,
+      "translation_time": 67.67305183410645,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.732622422787888,
+      "chrF": 20.194102560856344,
+      "num_examples": 1070,
+      "translation_time": 62.96510553359985,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_300/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_400": {
+    "BQI": {
+      "BLEU": 1.6126257663639416,
+      "chrF": 18.4665142625301,
+      "num_examples": 1000,
+      "translation_time": 63.48956847190857,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 1.1746943156295835,
+      "chrF": 17.315543216297034,
+      "num_examples": 1000,
+      "translation_time": 60.666926860809326,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 3.7056095721564604,
+      "chrF": 20.791351346091012,
+      "num_examples": 999,
+      "translation_time": 58.348856925964355,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 2.3866161678165234,
+      "chrF": 18.9728295865659,
+      "num_examples": 996,
+      "translation_time": 58.87995624542236,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.078400508690295,
+      "chrF": 19.32905491268812,
+      "num_examples": 1000,
+      "translation_time": 54.43102240562439,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 2.9694459134874465,
+      "chrF": 20.53026874028589,
+      "num_examples": 1000,
+      "translation_time": 58.175756216049194,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 1.8236761170974474,
+      "chrF": 17.883434286673968,
+      "num_examples": 1000,
+      "translation_time": 61.15643000602722,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.056184816863955,
+      "chrF": 18.859370908966667,
+      "num_examples": 1070,
+      "translation_time": 53.79219722747803,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_400/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_500": {
+    "BQI": {
+      "BLEU": 2.0022002023206733,
+      "chrF": 19.132417888592645,
+      "num_examples": 1000,
+      "translation_time": 62.4117636680603,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 1.3738309057752978,
+      "chrF": 17.574482887842485,
+      "num_examples": 1000,
+      "translation_time": 57.608802795410156,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 3.192111107588778,
+      "chrF": 20.590361887912564,
+      "num_examples": 999,
+      "translation_time": 56.16545629501343,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 3.133903527768308,
+      "chrF": 19.987021468182856,
+      "num_examples": 996,
+      "translation_time": 55.62000584602356,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.774294002504381,
+      "chrF": 19.982820739615022,
+      "num_examples": 1000,
+      "translation_time": 51.25574588775635,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 3.6515333143552318,
+      "chrF": 20.985856393248085,
+      "num_examples": 1000,
+      "translation_time": 54.06071758270264,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 1.8501107133254604,
+      "chrF": 18.151993907158793,
+      "num_examples": 1000,
+      "translation_time": 57.84914183616638,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.012204240485248,
+      "chrF": 18.652062446800624,
+      "num_examples": 1070,
+      "translation_time": 54.75644636154175,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_500/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_600": {
+    "BQI": {
+      "BLEU": 1.9503571578368548,
+      "chrF": 18.554056661404637,
+      "num_examples": 1000,
+      "translation_time": 82.98925757408142,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 0.8343458209905654,
+      "chrF": 16.3975683287636,
+      "num_examples": 1000,
+      "translation_time": 91.81264209747314,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 3.201973043068198,
+      "chrF": 19.834053332790987,
+      "num_examples": 999,
+      "translation_time": 76.08189105987549,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 2.263706090810356,
+      "chrF": 18.672022802269726,
+      "num_examples": 996,
+      "translation_time": 75.6244854927063,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.693493346186618,
+      "chrF": 19.53949570208611,
+      "num_examples": 1000,
+      "translation_time": 59.94705367088318,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 3.791518237934471,
+      "chrF": 20.239826949711542,
+      "num_examples": 1000,
+      "translation_time": 72.68117022514343,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 1.5585378076109726,
+      "chrF": 17.93328284653784,
+      "num_examples": 1000,
+      "translation_time": 67.01645016670227,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.5281166201033414,
+      "chrF": 19.010840833202828,
+      "num_examples": 1070,
+      "translation_time": 79.02022957801819,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_600/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_700": {
+    "BQI": {
+      "BLEU": 2.747409526218049,
+      "chrF": 19.613088181917874,
+      "num_examples": 1000,
+      "translation_time": 60.41905403137207,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 1.382425718816193,
+      "chrF": 17.44700240572222,
+      "num_examples": 1000,
+      "translation_time": 55.14292931556702,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 4.465340746662122,
+      "chrF": 20.95659135368953,
+      "num_examples": 999,
+      "translation_time": 54.6768479347229,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 3.115639988917309,
+      "chrF": 19.94549218941063,
+      "num_examples": 996,
+      "translation_time": 55.35982346534729,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.796869590292983,
+      "chrF": 20.027088169909575,
+      "num_examples": 1000,
+      "translation_time": 49.2588164806366,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 4.246040007802846,
+      "chrF": 21.445496395980932,
+      "num_examples": 1000,
+      "translation_time": 54.031596422195435,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 2.4668230274935996,
+      "chrF": 18.415607980510444,
+      "num_examples": 1000,
+      "translation_time": 54.768961906433105,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.263040637626352,
+      "chrF": 19.088767040728055,
+      "num_examples": 1070,
+      "translation_time": 52.69014620780945,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_700/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_800": {
+    "BQI": {
+      "BLEU": 2.5867500816772795,
+      "chrF": 20.221814810859833,
+      "num_examples": 1000,
+      "translation_time": 62.38612365722656,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 2.5323981563468627,
+      "chrF": 18.55441152934258,
+      "num_examples": 1000,
+      "translation_time": 57.77114152908325,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 5.020529510768852,
+      "chrF": 22.326232834739574,
+      "num_examples": 999,
+      "translation_time": 56.39276933670044,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 3.9331033677126874,
+      "chrF": 21.037644432633765,
+      "num_examples": 996,
+      "translation_time": 57.02819633483887,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 2.909700815901723,
+      "chrF": 20.36157437418528,
+      "num_examples": 1000,
+      "translation_time": 51.169711112976074,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 4.465143835002534,
+      "chrF": 22.394249604677416,
+      "num_examples": 1000,
+      "translation_time": 53.42438077926636,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 3.501566338250895,
+      "chrF": 19.45496178118844,
+      "num_examples": 1000,
+      "translation_time": 56.62062740325928,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.623079217894172,
+      "chrF": 19.90756994447903,
+      "num_examples": 1070,
+      "translation_time": 55.59898495674133,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_800/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_900": {
+    "BQI": {
+      "BLEU": 3.26206732089604,
+      "chrF": 20.678342192929748,
+      "num_examples": 1000,
+      "translation_time": 63.32730960845947,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 2.229180771698278,
+      "chrF": 18.071868712168857,
+      "num_examples": 1000,
+      "translation_time": 59.10481357574463,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 4.958730580178788,
+      "chrF": 22.40527004003242,
+      "num_examples": 999,
+      "translation_time": 56.55416297912598,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 3.222339781107424,
+      "chrF": 20.632808697026444,
+      "num_examples": 996,
+      "translation_time": 56.48930764198303,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 3.3823843954278106,
+      "chrF": 20.734207081828952,
+      "num_examples": 1000,
+      "translation_time": 51.30758810043335,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 5.124106848269279,
+      "chrF": 22.856994164166466,
+      "num_examples": 1000,
+      "translation_time": 54.506436824798584,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 3.0692118440518272,
+      "chrF": 19.427054734093712,
+      "num_examples": 1000,
+      "translation_time": 54.271876096725464,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 2.566495906697878,
+      "chrF": 20.47970069313129,
+      "num_examples": 1070,
+      "translation_time": 53.389726400375366,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_900/ZZA_translations.tsv"
+    }
+  },
+  "nllb_finetuned_base_1000": {
+    "BQI": {
+      "BLEU": 3.2194711120191184,
+      "chrF": 20.727378518572614,
+      "num_examples": 1000,
+      "translation_time": 62.40559911727905,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/BQI_translations.tsv"
+    },
+    "GLK": {
+      "BLEU": 2.397854252046626,
+      "chrF": 18.39433461950354,
+      "num_examples": 1000,
+      "translation_time": 56.465364933013916,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/GLK_translations.tsv"
+    },
+    "HAC": {
+      "BLEU": 6.249036115485383,
+      "chrF": 23.303553302065364,
+      "num_examples": 999,
+      "translation_time": 55.03789401054382,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/HAC_translations.tsv"
+    },
+    "LKI": {
+      "BLEU": 3.5772769059891805,
+      "chrF": 21.306460636149342,
+      "num_examples": 996,
+      "translation_time": 53.71042823791504,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/LKI_translations.tsv"
+    },
+    "MZN": {
+      "BLEU": 3.6251808781070105,
+      "chrF": 21.219674071263782,
+      "num_examples": 1000,
+      "translation_time": 50.038676738739014,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/MZN_translations.tsv"
+    },
+    "SDH": {
+      "BLEU": 5.42135946501717,
+      "chrF": 23.082135077228894,
+      "num_examples": 1000,
+      "translation_time": 52.37652134895325,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/SDH_translations.tsv"
+    },
+    "TLY": {
+      "BLEU": 3.4857204269297983,
+      "chrF": 19.403451523090013,
+      "num_examples": 1000,
+      "translation_time": 55.08395862579346,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/TLY_translations.tsv"
+    },
+    "ZZA": {
+      "BLEU": 3.1840995265125125,
+      "chrF": 21.015232337318977,
+      "num_examples": 1070,
+      "translation_time": 52.12156891822815,
+      "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/ZZA_translations.tsv"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+GlotScript
+Levenshtein
+nltk
+torch
+sentence_transformers
+pathlib
+transformers
+numpy
+evaluate
+datasets
+sacrebleu

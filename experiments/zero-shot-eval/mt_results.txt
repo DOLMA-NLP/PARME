@@ -1,0 +1,381 @@
+======================= 600M ======================= 
+Processing BQI-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.74
+Source: tur_Latn, Target: Eng >>> 0.7
+Source: kmr_Latn, Target: Eng >>> 0.72
+Source: pes_Arab, Target: Eng >>> 1.03
+Source: ckb_Arab, Target: Eng >>> 0.58
+Source: arb_Arab, Target: Eng >>> 0.42
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 15.02
+Source: tur_Latn, Target: Eng >>> 13.46
+Source: kmr_Latn, Target: Eng >>> 14.95
+Source: pes_Arab, Target: Eng >>> 15.49
+Source: ckb_Arab, Target: Eng >>> 14.57
+Source: arb_Arab, Target: Eng >>> 13.46
+
+Processing GLK-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.56
+Source: tur_Latn, Target: Eng >>> 0.64
+Source: kmr_Latn, Target: Eng >>> 0.61
+Source: pes_Arab, Target: Eng >>> 0.75
+Source: ckb_Arab, Target: Eng >>> 0.52
+Source: arb_Arab, Target: Eng >>> 0.28
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 13.75
+Source: tur_Latn, Target: Eng >>> 13.26
+Source: kmr_Latn, Target: Eng >>> 14.63
+Source: pes_Arab, Target: Eng >>> 15.2
+Source: ckb_Arab, Target: Eng >>> 14.21
+Source: arb_Arab, Target: Eng >>> 13.44
+
+Processing HAC-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.73
+Source: tur_Latn, Target: Eng >>> 1.01
+Source: kmr_Latn, Target: Eng >>> 1.13
+Source: pes_Arab, Target: Eng >>> 1.84
+Source: ckb_Arab, Target: Eng >>> 1.89
+Source: arb_Arab, Target: Eng >>> 0.69
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 15.12
+Source: tur_Latn, Target: Eng >>> 13.67
+Source: kmr_Latn, Target: Eng >>> 16.99
+Source: pes_Arab, Target: Eng >>> 17.46
+Source: ckb_Arab, Target: Eng >>> 19.13
+Source: arb_Arab, Target: Eng >>> 14.9
+
+Processing LKI-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.42
+Source: tur_Latn, Target: Eng >>> 0.37
+Source: kmr_Latn, Target: Eng >>> 0.36
+Source: pes_Arab, Target: Eng >>> 1.32
+Source: ckb_Arab, Target: Eng >>> 1.2
+Source: arb_Arab, Target: Eng >>> 0.25
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 13.45
+Source: tur_Latn, Target: Eng >>> 11.32
+Source: kmr_Latn, Target: Eng >>> 13.28
+Source: pes_Arab, Target: Eng >>> 15.02
+Source: ckb_Arab, Target: Eng >>> 15.69
+Source: arb_Arab, Target: Eng >>> 12.63
+
+Processing MZN-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 1.07
+Source: tur_Latn, Target: Eng >>> 1.04
+Source: kmr_Latn, Target: Eng >>> 1.0
+Source: pes_Arab, Target: Eng >>> 1.98
+Source: ckb_Arab, Target: Eng >>> 1.3
+Source: arb_Arab, Target: Eng >>> 0.57
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 16.19
+Source: tur_Latn, Target: Eng >>> 15.38
+Source: kmr_Latn, Target: Eng >>> 16.47
+Source: pes_Arab, Target: Eng >>> 18.41
+Source: ckb_Arab, Target: Eng >>> 15.18
+Source: arb_Arab, Target: Eng >>> 14.45
+
+Processing SDH-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 1.1
+Source: tur_Latn, Target: Eng >>> 1.28
+Source: kmr_Latn, Target: Eng >>> 2.18
+Source: pes_Arab, Target: Eng >>> 2.3
+Source: ckb_Arab, Target: Eng >>> 2.77
+Source: arb_Arab, Target: Eng >>> 0.92
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 15.78
+Source: tur_Latn, Target: Eng >>> 14.36
+Source: kmr_Latn, Target: Eng >>> 17.05
+Source: pes_Arab, Target: Eng >>> 17.32
+Source: ckb_Arab, Target: Eng >>> 19.41
+Source: arb_Arab, Target: Eng >>> 14.7
+
+Processing TLY-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.43
+Source: tur_Latn, Target: Eng >>> 0.44
+Source: kmr_Latn, Target: Eng >>> 0.49
+Source: pes_Arab, Target: Eng >>> 0.9
+Source: ckb_Arab, Target: Eng >>> 0.66
+Source: arb_Arab, Target: Eng >>> 0.3
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 14.43
+Source: tur_Latn, Target: Eng >>> 13.98
+Source: kmr_Latn, Target: Eng >>> 13.33
+Source: pes_Arab, Target: Eng >>> 15.82
+Source: ckb_Arab, Target: Eng >>> 14.24
+Source: arb_Arab, Target: Eng >>> 14.3
+
+Processing ZZA-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 1.09
+Source: eng_Latn, Target: Eng >>> 0.45
+Source: tur_Latn, Target: Eng >>> 0.81
+Source: kmr_Latn, Target: Eng >>> 2.82
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 18.69
+Source: eng_Latn, Target: Eng >>> 13.81
+Source: tur_Latn, Target: Eng >>> 15.76
+Source: kmr_Latn, Target: Eng >>> 22.07
+
+===================== TRANSLITERATION ========================
+Processing BQI-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.09
+Source: eng_Latn, Target: Eng >>> 0.17
+Source: tur_Latn, Target: Eng >>> 0.1
+Source: kmr_Latn, Target: Eng >>> 0.05
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 9.51
+Source: eng_Latn, Target: Eng >>> 10.78
+Source: tur_Latn, Target: Eng >>> 8.85
+Source: kmr_Latn, Target: Eng >>> 9.13
+
+Processing GLK-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.06
+Source: eng_Latn, Target: Eng >>> 0.06
+Source: tur_Latn, Target: Eng >>> 0.05
+Source: kmr_Latn, Target: Eng >>> 0.04
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 10.82
+Source: eng_Latn, Target: Eng >>> 10.77
+Source: tur_Latn, Target: Eng >>> 9.55
+Source: kmr_Latn, Target: Eng >>> 9.47
+
+Processing HAC-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.27
+Source: eng_Latn, Target: Eng >>> 0.16
+Source: tur_Latn, Target: Eng >>> 0.34
+Source: kmr_Latn, Target: Eng >>> 0.38
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 13.82
+Source: eng_Latn, Target: Eng >>> 11.84
+Source: tur_Latn, Target: Eng >>> 11.76
+Source: kmr_Latn, Target: Eng >>> 14.78
+
+Processing LKI-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.14
+Source: eng_Latn, Target: Eng >>> 0.19
+Source: tur_Latn, Target: Eng >>> 0.17
+Source: kmr_Latn, Target: Eng >>> 0.23
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 14.44
+Source: eng_Latn, Target: Eng >>> 11.46
+Source: tur_Latn, Target: Eng >>> 11.6
+Source: kmr_Latn, Target: Eng >>> 14.33
+
+Processing MZN-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.03
+Source: eng_Latn, Target: Eng >>> 0.1
+Source: tur_Latn, Target: Eng >>> 0.03
+Source: kmr_Latn, Target: Eng >>> 0.01
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 8.72
+Source: eng_Latn, Target: Eng >>> 9.72
+Source: tur_Latn, Target: Eng >>> 8.68
+Source: kmr_Latn, Target: Eng >>> 8.49
+
+Processing SDH-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.23
+Source: eng_Latn, Target: Eng >>> 0.17
+Source: tur_Latn, Target: Eng >>> 0.21
+Source: kmr_Latn, Target: Eng >>> 1.0
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 13.52
+Source: eng_Latn, Target: Eng >>> 11.91
+Source: tur_Latn, Target: Eng >>> 11.85
+Source: kmr_Latn, Target: Eng >>> 14.93
+
+Processing TLY-latn...
+=== BLEU Scores ===
+Source: arb_Latn, Target: Eng >>> 0.16
+Source: eng_Latn, Target: Eng >>> 0.14
+Source: tur_Latn, Target: Eng >>> 0.1
+Source: kmr_Latn, Target: Eng >>> 0.08
+
+=== CHrF Scores ===
+Source: arb_Latn, Target: Eng >>> 11.07
+Source: eng_Latn, Target: Eng >>> 10.0
+Source: tur_Latn, Target: Eng >>> 9.26
+Source: kmr_Latn, Target: Eng >>> 8.99
+
+Processing ZZA-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.98
+Source: pes_Arab, Target: Eng >>> 1.2
+Source: ckb_Arab, Target: Eng >>> 1.58
+Source: arb_Arab, Target: Eng >>> 0.83
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 15.63
+Source: pes_Arab, Target: Eng >>> 17.99
+Source: ckb_Arab, Target: Eng >>> 18.8
+Source: arb_Arab, Target: Eng >>> 15.71
+
+
+============================================================ 3.3
+
+
+Processing BQI-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.58
+Source: tur_Latn, Target: Eng >>> 1.26
+Source: kmr_Latn, Target: Eng >>> 0.66
+Source: pes_Arab, Target: Eng >>> 1.56
+Source: ckb_Arab, Target: Eng >>> 0.7
+Source: arb_Arab, Target: Eng >>> 0.26
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 14.65
+Source: tur_Latn, Target: Eng >>> 15.27
+Source: kmr_Latn, Target: Eng >>> 14.26
+Source: pes_Arab, Target: Eng >>> 16.69
+Source: ckb_Arab, Target: Eng >>> 15.45
+Source: arb_Arab, Target: Eng >>> 13.09
+
+Processing GLK-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.6
+Source: tur_Latn, Target: Eng >>> 0.76
+Source: kmr_Latn, Target: Eng >>> 0.57
+Source: pes_Arab, Target: Eng >>> 0.8
+Source: ckb_Arab, Target: Eng >>> 0.53
+Source: arb_Arab, Target: Eng >>> 0.33
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 14.9
+Source: tur_Latn, Target: Eng >>> 14.49
+Source: kmr_Latn, Target: Eng >>> 14.87
+Source: pes_Arab, Target: Eng >>> 15.17
+Source: ckb_Arab, Target: Eng >>> 14.42
+Source: arb_Arab, Target: Eng >>> 13.33
+
+Processing HAC-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 1.5
+Source: tur_Latn, Target: Eng >>> 1.12
+Source: kmr_Latn, Target: Eng >>> 1.24
+Source: pes_Arab, Target: Eng >>> 1.86
+Source: ckb_Arab, Target: Eng >>> 2.02
+Source: arb_Arab, Target: Eng >>> 0.63
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 17.05
+Source: tur_Latn, Target: Eng >>> 15.46
+Source: kmr_Latn, Target: Eng >>> 18.2
+Source: pes_Arab, Target: Eng >>> 17.98
+Source: ckb_Arab, Target: Eng >>> 19.93
+Source: arb_Arab, Target: Eng >>> 13.96
+
+Processing LKI-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.58
+Source: tur_Latn, Target: Eng >>> 0.67
+Source: kmr_Latn, Target: Eng >>> 0.57
+Source: pes_Arab, Target: Eng >>> 1.27
+Source: ckb_Arab, Target: Eng >>> 1.35
+Source: arb_Arab, Target: Eng >>> 0.47
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 14.35
+Source: tur_Latn, Target: Eng >>> 14.32
+Source: kmr_Latn, Target: Eng >>> 15.25
+Source: pes_Arab, Target: Eng >>> 15.42
+Source: ckb_Arab, Target: Eng >>> 16.87
+Source: arb_Arab, Target: Eng >>> 12.65
+
+Processing MZN-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 1.41
+Source: tur_Latn, Target: Eng >>> 1.54
+Source: kmr_Latn, Target: Eng >>> 0.7
+Source: pes_Arab, Target: Eng >>> 2.05
+Source: ckb_Arab, Target: Eng >>> 0.71
+Source: arb_Arab, Target: Eng >>> 0.63
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 16.16
+Source: tur_Latn, Target: Eng >>> 17.7
+Source: kmr_Latn, Target: Eng >>> 16.17
+Source: pes_Arab, Target: Eng >>> 19.19
+Source: ckb_Arab, Target: Eng >>> 14.9
+Source: arb_Arab, Target: Eng >>> 14.39
+
+Processing SDH-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 1.77
+Source: tur_Latn, Target: Eng >>> 1.64
+Source: kmr_Latn, Target: Eng >>> 2.19
+Source: pes_Arab, Target: Eng >>> 2.6
+Source: ckb_Arab, Target: Eng >>> 2.86
+Source: arb_Arab, Target: Eng >>> 1.0
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 17.39
+Source: tur_Latn, Target: Eng >>> 16.31
+Source: kmr_Latn, Target: Eng >>> 18.85
+Source: pes_Arab, Target: Eng >>> 18.15
+Source: ckb_Arab, Target: Eng >>> 19.89
+Source: arb_Arab, Target: Eng >>> 13.99
+
+Processing TLY-arab...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.35
+Source: tur_Latn, Target: Eng >>> 0.52
+Source: kmr_Latn, Target: Eng >>> 0.24
+Source: pes_Arab, Target: Eng >>> 1.0
+Source: ckb_Arab, Target: Eng >>> 0.43
+Source: arb_Arab, Target: Eng >>> 0.17
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 15.25
+Source: tur_Latn, Target: Eng >>> 14.0
+Source: kmr_Latn, Target: Eng >>> 13.24
+Source: pes_Arab, Target: Eng >>> 16.08
+Source: ckb_Arab, Target: Eng >>> 15.44
+Source: arb_Arab, Target: Eng >>> 13.52
+
+Processing ZZA-latn...
+=== BLEU Scores ===
+Source: eng_Latn, Target: Eng >>> 0.43
+Source: tur_Latn, Target: Eng >>> 1.03
+Source: kmr_Latn, Target: Eng >>> 2.96
+Source: pes_Arab, Target: Eng >>> 1.26
+Source: ckb_Arab, Target: Eng >>> 1.59
+Source: arb_Arab, Target: Eng >>> 0.3
+
+=== CHrF Scores ===
+Source: eng_Latn, Target: Eng >>> 14.5
+Source: tur_Latn, Target: Eng >>> 17.67
+Source: kmr_Latn, Target: Eng >>> 22.41
+Source: pes_Arab, Target: Eng >>> 16.26
+Source: ckb_Arab, Target: Eng >>> 19.45
+Source: arb_Arab, Target: Eng >>> 12.86
+
+
+
+======================= 3.3B ======================= 

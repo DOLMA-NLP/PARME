@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 3.2194711120191184,
+    "chrF": 20.727378518572614,
+    "num_examples": 1000,
+    "translation_time": 62.40559911727905,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 2.397854252046626,
+    "chrF": 18.39433461950354,
+    "num_examples": 1000,
+    "translation_time": 56.465364933013916,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 6.249036115485383,
+    "chrF": 23.303553302065364,
+    "num_examples": 999,
+    "translation_time": 55.03789401054382,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 3.5772769059891805,
+    "chrF": 21.306460636149342,
+    "num_examples": 996,
+    "translation_time": 53.71042823791504,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 3.6251808781070105,
+    "chrF": 21.219674071263782,
+    "num_examples": 1000,
+    "translation_time": 50.038676738739014,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 5.42135946501717,
+    "chrF": 23.082135077228894,
+    "num_examples": 1000,
+    "translation_time": 52.37652134895325,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 3.4857204269297983,
+    "chrF": 19.403451523090013,
+    "num_examples": 1000,
+    "translation_time": 55.08395862579346,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 3.1840995265125125,
+    "chrF": 21.015232337318977,
+    "num_examples": 1070,
+    "translation_time": 52.12156891822815,
+    "translations_file": "evaluation_results_samples/nllb_finetuned_base_1000/ZZA_translations.tsv"
+  }
+}

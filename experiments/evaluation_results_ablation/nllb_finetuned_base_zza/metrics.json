@@ -1,0 +1,58 @@
+{
+  "BQI": {
+    "BLEU": 3.2807123494527675,
+    "chrF": 20.134368035067624,
+    "num_examples": 1000,
+    "translation_time": 59.1429340839386,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/BQI_translations.tsv"
+  },
+  "GLK": {
+    "BLEU": 2.9882643945860683,
+    "chrF": 18.293459144332104,
+    "num_examples": 1000,
+    "translation_time": 55.14112067222595,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/GLK_translations.tsv"
+  },
+  "HAC": {
+    "BLEU": 5.391450821515864,
+    "chrF": 22.112775325711105,
+    "num_examples": 999,
+    "translation_time": 54.66516709327698,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/HAC_translations.tsv"
+  },
+  "LKI": {
+    "BLEU": 3.670161859504096,
+    "chrF": 20.520288625643953,
+    "num_examples": 996,
+    "translation_time": 54.43158960342407,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/LKI_translations.tsv"
+  },
+  "MZN": {
+    "BLEU": 3.980411803402812,
+    "chrF": 20.835514776740148,
+    "num_examples": 1000,
+    "translation_time": 47.75026059150696,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/MZN_translations.tsv"
+  },
+  "SDH": {
+    "BLEU": 4.664452304101118,
+    "chrF": 22.365756936114238,
+    "num_examples": 1000,
+    "translation_time": 52.559345722198486,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/SDH_translations.tsv"
+  },
+  "TLY": {
+    "BLEU": 3.786139560625715,
+    "chrF": 19.373310203724156,
+    "num_examples": 1000,
+    "translation_time": 53.82385444641113,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/TLY_translations.tsv"
+  },
+  "ZZA": {
+    "BLEU": 0.43907048021606143,
+    "chrF": 15.043857030322558,
+    "num_examples": 1070,
+    "translation_time": 55.58992528915405,
+    "translations_file": "evaluation_results_ablation/nllb_finetuned_base_zza/ZZA_translations.tsv"
+  }
+}
