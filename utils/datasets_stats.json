@@ -1,0 +1,364 @@
+{
+    "BQI": {
+        "test": {
+            "dialects": {
+                "Luri Bakhtiari (Central)": 1000
+            },
+            "orthographies": {
+                "P\u0101p\u00earik": 1000
+            },
+            "translators": {
+                "Vol_1": 270,
+                "Vol_2": 716,
+                "Vol_3": 14
+            }
+        },
+        "val": {
+            "dialects": {
+                "Luri Bakhtiari (Central)": 998
+            },
+            "orthographies": {
+                "P\u0101p\u00earik": 998
+            },
+            "translators": {
+                "Vol_1": 714,
+                "Vol_2": 77,
+                "Vol_3": 207
+            }
+        }
+    },
+    "GLK": {
+        "test": {
+            "dialects": {
+                "Eastern Gilaki": 500,
+                "Western Gilaki": 500
+            },
+            "orthographies": {
+                "Vrg": 1000
+            },
+            "translators": {
+                "AO": 20,
+                "AS": 170,
+                "RRR": 513,
+                "VOL_2": 36,
+                "VOL_3": 41,
+                "VOL_4": 186,
+                "Vol_5": 4,
+                "Vol_6": 30
+            }
+        },
+        "train": {
+            "dialects": {
+                "Eastern Gilaki": 1223,
+                "Western Gilaki": 2197
+            },
+            "orthographies": {
+                "Other": 109,
+                "Sarkhat": 2992,
+                "Vrg": 319
+            },
+            "translators": {
+                "AO": 1,
+                "AS": 217,
+                "GAB": 996,
+                "PF": 991,
+                "RRR": 100,
+                "SZR": 998,
+                "VOL_1": 7,
+                "Vol_5": 1,
+                "Vol_7": 109
+            }
+        },
+        "val": {
+            "dialects": {
+                "Eastern Gilaki": 500,
+                "Western Gilaki": 500
+            },
+            "orthographies": {
+                "Vrg": 1000
+            },
+            "translators": {
+                "AO": 54,
+                "AS": 500,
+                "RRR": 446
+            }
+        }
+    },
+    "HAC": {
+        "test": {
+            "dialects": {
+                "Hawraman Takht": 333,
+                "Jawaru": 333,
+                "Lhon": 333
+            },
+            "orthographies": {
+                "Hawrami": 999
+            },
+            "translators": {
+                "DB": 333,
+                "HHH": 190,
+                "HO": 333,
+                "SKH": 143
+            }
+        },
+        "train": {
+            "dialects": {
+                "Hawraman Takht": 255,
+                "Jawaru": 339,
+                "Lhon": 5202
+            },
+            "orthographies": {
+                "Hawrami": 2059,
+                "Hawrami_var_1": 3737
+            },
+            "translators": {
+                "AM": 822,
+                "ASA": 922,
+                "BJ": 1000,
+                "DB": 255,
+                "HHH": 848,
+                "HO": 339,
+                "SKH": 562,
+                "SNH": 993,
+                "Vol_1": 14,
+                "Vol_2": 41
+            }
+        },
+        "val": {
+            "dialects": {
+                "Hawraman Takht": 333,
+                "Jawaru": 333,
+                "Lhon": 333
+            },
+            "orthographies": {
+                "Hawrami": 999
+            },
+            "translators": {
+                "DB": 333,
+                "HHH": 33,
+                "HO": 333,
+                "SKH": 285,
+                "Vol_1": 15
+            }
+        }
+    },
+    "LKI": {
+        "test": {
+            "dialects": {
+                "Jalalvan / Hozmanvan": 200,
+                "Kakavandi": 586,
+                "Sahneyi": 210
+            },
+            "orthographies": {
+                "Laki Kurdish": 795,
+                "Southern Kurdish": 201
+            },
+            "translators": {
+                "AM": 585,
+                "BEG": 200,
+                "KY": 1,
+                "PA": 210
+            }
+        },
+        "train": {
+            "dialects": {
+                "Jalalvan / Hozmanvan": 65,
+                "Kakavandi": 1418,
+                "Sahneyi": 4
+            },
+            "orthographies": {
+                "Laki Kurdish": 97,
+                "Southern Kurdish": 1390
+            },
+            "translators": {
+                "AM": 93,
+                "BEG": 65,
+                "KY": 445,
+                "MRY": 880,
+                "PA": 4
+            }
+        },
+        "val": {
+            "dialects": {
+                "Jalalvan / Hozmanvan": 148,
+                "Kakavandi": 787
+            },
+            "orthographies": {
+                "Laki Kurdish": 320,
+                "Southern Kurdish": 615
+            },
+            "translators": {
+                "AM": 320,
+                "BEG": 148,
+                "KY": 347,
+                "MRY": 120
+            }
+        }
+    },
+    "MZN": {
+        "test": {
+            "dialects": {
+                "Central Mazani": 1000
+            },
+            "orthographies": {
+                "Farsi": 1000
+            },
+            "translators": {
+                "Vol_1": 188,
+                "Vol_3": 88,
+                "Vol_4": 1,
+                "Vol_6": 723
+            }
+        },
+        "train": {
+            "dialects": {
+                "Central Mazani": 2345
+            },
+            "orthographies": {
+                "Farsi": 2345
+            },
+            "translators": {
+                "Vol_1": 396,
+                "Vol_2": 1157,
+                "Vol_3": 110,
+                "Vol_4": 196,
+                "Vol_6": 486
+            }
+        },
+        "val": {
+            "dialects": {
+                "Central Mazani": 1000
+            },
+            "orthographies": {
+                "Farsi": 1000
+            },
+            "translators": {
+                "Vol_1": 383,
+                "Vol_2": 41,
+                "Vol_3": 191,
+                "Vol_6": 385
+            }
+        }
+    },
+    "SDH": {
+        "test": {
+            "dialects": {
+                "Badrei": 83,
+                "Kalhori": 176,
+                "Kirmashani": 541,
+                "Pehley": 200
+            },
+            "orthographies": {
+                "Southern Kurdish": 1000
+            },
+            "translators": {
+                "EK": 200,
+                "Vol_0": 523,
+                "Vol_1": 1,
+                "Vol_2": 123,
+                "Vol_3": 83,
+                "Vol_4": 52,
+                "Vol_5": 18
+            }
+        },
+        "train": {
+            "dialects": {
+                "Garusi": 620,
+                "Kalhori": 24,
+                "Kirmashani": 6082,
+                "Pehley": 1080
+            },
+            "orthographies": {
+                "Southern Kurdish": 7806
+            },
+            "translators": {
+                "AG": 620,
+                "EK": 614,
+                "MO": 466,
+                "Vol_0": 5684,
+                "Vol_1": 24,
+                "Vol_5": 398
+            }
+        },
+        "val": {
+            "dialects": {
+                "Kirmashani": 800,
+                "Pehley": 200
+            },
+            "orthographies": {
+                "Southern Kurdish": 1000
+            },
+            "translators": {
+                "EK": 187,
+                "MO": 13,
+                "Vol_0": 354,
+                "Vol_5": 446
+            }
+        }
+    },
+    "TLY": {
+        "test": {
+            "dialects": {
+                "Southern Talysh": 1000
+            },
+            "orthographies": {
+                "Farsi": 38,
+                "Farsi (diacriticized)": 962
+            },
+            "translators": {
+                "AG": 92,
+                "ES": 38,
+                "MAN": 870
+            }
+        },
+        "val": {
+            "dialects": {
+                "Southern Talysh": 1106
+            },
+            "orthographies": {
+                "Farsi": 4,
+                "Farsi (diacriticized)": 1102
+            },
+            "translators": {
+                "AG": 933,
+                "ES": 4,
+                "MAN": 169
+            }
+        }
+    },
+    "ZZA": {
+        "test": {
+            "dialects": {
+                "": 1070
+            },
+            "orthographies": {
+                "MD": 1070
+            },
+            "translators": {
+                "": 1070
+            }
+        },
+        "train": {
+            "dialects": {
+                "Standard": 2374
+            },
+            "orthographies": {
+                "Kurdish": 2374
+            },
+            "translators": {
+                "MO": 2374
+            }
+        },
+        "val": {
+            "dialects": {
+                "Standard": 957
+            },
+            "orthographies": {
+                "Kurdish": 957
+            },
+            "translators": {
+                "MO": 957
+            }
+        }
+    }
+}
