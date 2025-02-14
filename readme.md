@@ -73,7 +73,7 @@ To summarize, these are the available corpora and datasets per language:
 
 ## Scripts
 
-Although it's not the main contribution of the project, we release all the scripts used for preparing the corpora, data splits and fine-tuning. Please note that the codes are not optimized and you might need to change directory of files (it might be easier to simply work with the datasets and the corpora, tbh!).
+Although it's not the main contribution of the project, we release all the scripts used for preparing the corpora, data splits and fine-tuning. Please note that the codes are not optimized and you might need to change directory of files (it might be easier to simply work with the datasets and the corpora, tbh!). Additionl codes are provided in the [utils](utils) folder (including for visualization).
 
 ### Corpora
 
@@ -109,10 +109,11 @@ Although it's not the main contribution of the project, we release all the scrip
 
 ## License
 
-This project is fully open-source with the extremely permissive [MIT license](LICENSE). **Please be mindful that there is much effort going into this project!**
+This project is fully open-source with the extremely permissive [MIT license](LICENSE). **Please be mindful that there is much effort going into this!**
 
-This project was carried out during my employment as a postdoc at the University of Zurich. I also recieved generious support from the amazing [SILICON initiative](https://silicon.stanford.edu/). Additionally, I had to mobilize a community of over 50 wonderful volunteers who participated in the translation initiative, shared their content or simply spread the word on social media. By making it fully open-source, I hope that more researchers, **in both academia and industry**, consider working on these under-represented languages. I also hope the parallel corpora will also be crawled and included in future LLM training.
+This project was carried out during my employment as a postdoc at the University of Zurich. It also recieved generious support from the amazing [SILICON initiative](https://silicon.stanford.edu/) at Stanford University. Additionally, we had to mobilize a community of over 50 wonderful volunteers who participated in the translation initiative, shared their content or simply spread the word on social media. By making it fully open-source, we hope that more researchers, **in both academia and industry**, consider working on these under-represented languages. We also hope the parallel corpora will be crawled and included in training LLM in the future.
 
+Any support to sustain this initiative, as well as research collaborations to expand these resources, is welcome. For collaboration inquiries, don't hesitate to reach out.
 
 ## Cite this project
 
