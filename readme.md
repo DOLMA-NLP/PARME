@@ -91,7 +91,7 @@ Although it's not the main contribution of the project, we release all the scrip
 
 ### Fine-tuning
 
-- [`fine-tune.py`](codes/fine-tune.py): initializes [NLLB (6.6 distilled)](https://huggingface.co/facebook/nllb-200-distilled-600M) by adding new token indicators for our selected languages.
+- [`fine-tune.py`](codes/fine-tune.py): initializes [NLLB (600M distilled)](https://huggingface.co/facebook/nllb-200-distilled-600M) by adding new token indicators for our selected languages.
 - [`run_translation.py`](codes/run_translation.py): this is a modified version of [Hugging Face's fine-tuning code](https://raw.githubusercontent.com/huggingface/transformers/refs/heads/main/examples/pytorch/translation/run_translation.py) with the main difference being on tokenization. We remove the source and target language tokens as arguments.
 - For more information on fine-tuning NLLB, check [this](https://github.com/huggingface/transformers/tree/main/examples/pytorch/translation#readme) and [this](https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/nllb.md).
 
