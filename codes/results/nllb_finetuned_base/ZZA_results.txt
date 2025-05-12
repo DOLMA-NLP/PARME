@@ -1,0 +1,10 @@
+Running sacrebleu for ZZA in nllb_finetuned_base...
+File: ZZA_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 3.4 (μ = 3.4 ± 0.7) 20.9/5.1/1.7/0.8 (BP = 1.000 ratio = 1.074 hyp_len = 9527 ref_len = 8871)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 22.9 (μ = 22.9 ± 0.9)
+
+Running sacrebleu for ZZA in nllb_finetuned_base...
+File: ZZA_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 3.4 (μ = 3.4 ± 0.7) 20.9/5.1/1.7/0.8 (BP = 1.000 ratio = 1.074 hyp_len = 9527 ref_len = 8871)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 22.9 (μ = 22.9 ± 0.9)
+

@@ -1,0 +1,5 @@
+Running sacrebleu for SDH in nllb_finetuned_base_II_improved...
+File: SDH_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 10.8 (μ = 10.8 ± 1.4) 34.0/12.7/6.9/4.6 (BP = 1.000 ratio = 1.082 hyp_len = 10251 ref_len = 9477)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 29.4 (μ = 29.4 ± 1.2)
+

@@ -1,0 +1,10 @@
+Running sacrebleu for GLK in nllb_finetuned_augmented_II...
+File: GLK_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 4.1 (μ = 4.1 ± 1.0) 23.3/5.4/2.1/1.1 (BP = 1.000 ratio = 1.138 hyp_len = 10865 ref_len = 9550)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 21.0 (μ = 21.0 ± 0.8)
+
+Running sacrebleu for GLK in nllb_finetuned_augmented_II...
+File: GLK_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 4.1 (μ = 4.1 ± 1.0) 23.3/5.4/2.1/1.1 (BP = 1.000 ratio = 1.138 hyp_len = 10865 ref_len = 9550)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 21.0 (μ = 21.0 ± 0.8)
+

@@ -1,0 +1,10 @@
+Running sacrebleu for LKI in nllb_finetuned_augmented_I...
+File: LKI_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 5.7 (μ = 5.7 ± 0.8) 28.1/7.8/3.3/1.5 (BP = 1.000 ratio = 1.063 hyp_len = 9902 ref_len = 9314)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 24.1 (μ = 24.1 ± 0.8)
+
+Running sacrebleu for LKI in nllb_finetuned_augmented_I...
+File: LKI_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 5.7 (μ = 5.7 ± 0.8) 28.1/7.8/3.3/1.5 (BP = 1.000 ratio = 1.063 hyp_len = 9902 ref_len = 9314)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 24.1 (μ = 24.1 ± 0.8)
+

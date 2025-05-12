@@ -1,0 +1,5 @@
+Running sacrebleu for TLY in nllb_finetuned_base_II_improved...
+File: TLY_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 7.0 (μ = 6.9 ± 1.8) 23.4/6.7/4.2/3.7 (BP = 1.000 ratio = 1.095 hyp_len = 10425 ref_len = 9522)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 22.0 (μ = 22.0 ± 1.4)
+

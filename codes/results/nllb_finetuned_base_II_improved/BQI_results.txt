@@ -1,0 +1,5 @@
+Running sacrebleu for BQI in nllb_finetuned_base_II_improved...
+File: BQI_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 3.2 (μ = 3.2 ± 0.6) 22.4/4.5/1.5/0.7 (BP = 1.000 ratio = 1.122 hyp_len = 10758 ref_len = 9587)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 20.4 (μ = 20.4 ± 0.6)
+

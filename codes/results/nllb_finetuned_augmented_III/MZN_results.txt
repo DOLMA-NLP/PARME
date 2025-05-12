@@ -1,0 +1,10 @@
+Running sacrebleu for MZN in nllb_finetuned_augmented_III...
+File: MZN_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 5.7 (μ = 5.6 ± 0.9) 28.9/8.2/3.1/1.4 (BP = 1.000 ratio = 1.041 hyp_len = 9127 ref_len = 8765)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 23.8 (μ = 23.8 ± 0.9)
+
+Running sacrebleu for MZN in nllb_finetuned_augmented_III...
+File: MZN_translations.tsv
+   BLEU|#:1|bs:1000|rs:12345|c:mixed|e:no|tok:13a|s:exp|v:2.4.2 = 5.7 (μ = 5.6 ± 0.9) 28.9/8.2/3.1/1.4 (BP = 1.000 ratio = 1.041 hyp_len = 9127 ref_len = 8765)
+chrF2|#:1|bs:1000|rs:12345|c:mixed|e:yes|nc:6|nw:0|s:no|v:2.4.2 = 23.8 (μ = 23.8 ± 0.9)
+

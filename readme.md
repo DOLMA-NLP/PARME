@@ -23,7 +23,7 @@ This repository provides documentation on our project that aims to develop machi
 
 ## Parallel Corpora
 
-All the parallel corpora are provided in the [corpora](corpora) folder. These are TSV files containing parallel sentences in three lanugages: English-Farsi-X. For Zazaki, exceptionally, the test set only contains English-Zazaki pairs and the remaining data is Enlgish-Kurmanji-Zazaii. These files are the most comprehensive ones with the following meta-data:
+All the parallel corpora are provided in the [corpora](corpora) folder. These are TSV files containing parallel sentences in three languages: English-Farsi-X. For Zazaki, exceptionally, the test set only contains English-Zazaki pairs and the remaining data is English-Kurmanji-Zazaii. These files are the most comprehensive ones with the following meta-data:
 
 - `en_sentence`: sentence in English
 - `fa_sentence`: sentence in Farsi
@@ -56,14 +56,14 @@ All the dataset splits are also available in `jsonlines` format, ready for train
 
 The datasets used in the ablation studies are provided in [ablation](fine-tune/ablation) and [samples](fine-tune/samples) folders.
 
-## Summary of Resoruces
+## Summary of Resources
 
 To summarize, these are the available corpora and datasets per language:
 
 | Language | Parallel languages | # Sentence pairs  | # Varieties | Orthographies | Download | JSONL |
 |----------|--------------|----|-------------------| ----------- | ------------- | -------- |
 | **Luri Bakhtiari** (BQI) | English, Farsi | 1998 | Central | Pāpêrik | [corpus](corpora/en-fa-bqi.tsv) \| [test](datasets/BQI-test.tsv) / [val](datasets/BQI-val.tsv) | [val](fine-tune/base/jsonl/bqi_Arab-eng_Latn.val.jsonl) |
-| **Gilaki** (GLK) | English, Farsi | 5420 | Eastern, Western | [Vrg](https://v6rg.com/), Sarkhat, Other | [corpus](corpora/en-fa-glk.tsv) \| [test](datasets/GLK-test.tsv) / [val](datasets/GLK-val.tsv) / [train](datasets/GLK-train.tsv) | [train](fine-tune/base/jsonl/glk_Arab-eng_Latn.train.jsonl) / [val](fine-tune/base/jsonl/glk_Arab-eng_Latn.val.jsonl) |
+| **Gilaki** (GLK) | English, Farsi | 5420 | Eastern, Western | [Vrg](https://v6rg.com/), [Sarkhat](https://www.fekrazad.com/wp-content/uploads/2020/11/shivename-pishnehadi-gilaki-nevisi.pdf), Other | [corpus](corpora/en-fa-glk.tsv) \| [test](datasets/GLK-test.tsv) / [val](datasets/GLK-val.tsv) / [train](datasets/GLK-train.tsv) | [train](fine-tune/base/jsonl/glk_Arab-eng_Latn.train.jsonl) / [val](fine-tune/base/jsonl/glk_Arab-eng_Latn.val.jsonl) |
 | **Hawrami** (HAC) | English, Farsi | 7794 | Lhon, Jawaru, Hawraman Takht | Kurdish (two variants) | [corpus](corpora/en-fa-hac.tsv) \| [test](datasets/HAC-test.tsv) / [val](datasets/HAC-val.tsv) / [train](datasets/HAC-train.tsv) | [train](fine-tune/base/jsonl/hac_Arab-eng_Latn.train.jsonl) / [val](fine-tune/base/jsonl/hac_Arab-eng_Latn.val.jsonl)  |
 | **Laki Kurdish** (LKI) | English, Farsi | 3418 | Kakavandi, Jalalvan, Hozmanvan, Sahneyi | Kurdish | [corpus](corpora/en-fa-lki.tsv) \| [test](datasets/LKI-test.tsv) / [val](datasets/LKI-val.tsv) / [train](datasets/LKI-train.tsv) | [train](fine-tune/base/jsonl/lki_Arab-eng_Latn.train.jsonl) / [val](fine-tune/base/jsonl/lki_Arab-eng_Latn.val.jsonl) |
 | **Mazandarni** (MZN) | English, Farsi | 4345 | Central | Farsi | [corpus](corpora/en-fa-mzn.tsv) \| [test](datasets/MZN-test.tsv) / [val](datasets/MZN-val.tsv) / [train](datasets/MZN-train.tsv) | [train](fine-tune/base/jsonl/mzn_Arab-eng_Latn.train.jsonl) / [val](fine-tune/base/jsonl/mzn_Arab-eng_Latn.val.jsonl) |
@@ -73,21 +73,21 @@ To summarize, these are the available corpora and datasets per language:
 
 ## Scripts
 
-Although it's not the main contribution of the project, we release all the scripts used for preparing the corpora, data splits and fine-tuning. Please note that the codes are not optimized and you might need to change directory of files (it might be easier to simply work with the datasets and the corpora, tbh!). Additionl codes are provided in the [utils](utils) folder (including for visualization).
+Although it's not the main contribution of the project, we release all the scripts used for preparing the corpora, data splits and fine-tuning. Please note that the codes are not optimized and you might need to change directory of files (it might be easier to simply work with the datasets and the corpora, tbh!). Additional codes are provided in the [utils](utils) folder (including for visualization).
 
 ### Corpora
 
 - [`create_corpus.py`](codes/create_corpus.py): this implements the semantic and string based similarity measures described in the paper to ensure that a diverse set of sentences are extracted from the corpus. Make sure to update [`codes/data.json`](codes/data.json) by specifying the directory of your files.
 - [`codes/extract_sentences.py`](codes/extract_sentences.py): if you have a monolingual corpus, use this script to extract sentences for translation into a high-resource language.
-- [codes/random_sampler.py](codes/random_sampler.py): randomly selected sentences from a monolingual corpus.
+- [`codes/random_sampler.py`](codes/random_sampler.py): randomly selected sentences from a monolingual corpus.
 
 ### Prepare datasets and splits
 
 - [`nllb_prepare_data.py`](codes/nllb_prepare_data.py): Prepares datasets for NLLB fine-tuning with both base and augmented configurations.
 - [`combine_data.py`](codes/combine_data.py): merges all the individual jsonl files into one
-- [`prepend_lang_code.py`](codes/prepend_lang_code.py): prepends langauge indicator token to the beginning of each sentence.
-- [`sampler_size.py`](codes/sampler.py): samples from the datasets by incrementally selecting 100 sentences per language. Comamnds to train models on these samples are provided in [codes/train_samples.sh](codes/train_samples.sh).
-- [`sampler_exclusive.py`](codes/sampler_ablation.py): creates samples of 1000 sentences missing data from a languag each time.
+- [`prepend_lang_code.py`](codes/prepend_lang_code.py): prepends language indicator token to the beginning of each sentence.
+- [`sampler_size.py`](codes/sampler.py): samples from the datasets by incrementally selecting 100 sentences per language. Commands to train models on these samples are provided in [`codes/train_samples.sh`](codes/train_samples.sh).
+- [`sampler_exclusive.py`](codes/sampler_ablation.py): creates samples of 1000 sentences missing data from a language each time.
 
 ### Fine-tuning
 
@@ -111,7 +111,7 @@ Although it's not the main contribution of the project, we release all the scrip
 
 This project is fully open-source with the extremely permissive [MIT license](LICENSE). **Please be mindful that there is much effort going into this!**
 
-This project was carried out during my employment as a postdoc at the University of Zurich. It also recieved generious support from the amazing [SILICON initiative](https://silicon.stanford.edu/) at Stanford University. Additionally, we had to mobilize a community of over 50 wonderful volunteers who participated in the translation initiative, shared their content or simply spread the word on social media. By making it fully open-source, we hope that more researchers, **in both academia and industry**, consider working on these under-represented languages. We also hope the parallel corpora will be crawled and included in training LLM in the future.
+This project was carried out during my employment as a postdoc at the University of Zurich. It also received generous support from the amazing [SILICON initiative](https://silicon.stanford.edu/) at Stanford University. Additionally, we had to mobilize a community of over 50 wonderful volunteers who participated in the translation initiative, shared their content or simply spread the word on social media. By making it fully open-source, we hope that more researchers, **in both academia and industry**, consider working on these under-represented languages. We also hope the parallel corpora will be crawled and included in training LLM in the future.
 
 Any support to sustain this initiative, as well as research collaborations to expand these resources, is welcome. For collaboration inquiries, don't hesitate to reach out.
 
@@ -152,7 +152,7 @@ If you're using this project, please cite [this paper]():
     Osmanpour, Horam and,
     Roshan Ramezani, Rashid and,
     Sediq Aziz, Aryan and,
-    Salehi, Ali and,
+    Salehi Sheikhalikelayeh, Ali and,
     Yadegari, Mohammadreza and,
     Yadegari, Kewyar and,
     Zamani Roodsari, Sedighe
