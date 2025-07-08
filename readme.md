@@ -117,47 +117,49 @@ Any support to sustain this initiative, as well as research collaborations to ex
 
 ## Cite this project
 
-If you're using this project, please cite [this paper]():
+If you're using this project, please cite [this paper](https://sinaahmadi.github.io/docs/articles/ahmadi2025parme.pdf):
 
 ```
-  @inproceedings{ahmadi2025memt,
-   title = {Parallel Corpora for Low-Resourced {Middle Eastern} Languages},
+@inproceedings{ahmadi2025memt,
+   title = {{PARME}: Parallel Corpora for Low-Resourced {Middle Eastern} Languages},
    author = {
-    Ahmadi, Sina and,
-    Sennrich, Rico and,
-    Karami, Erfan and,
-    Marani, Ako and,
-    Fekrazad, Parviz and,
-    Akbarzadeh Baghban, Gholamreza and,
-    Hadi, Hanah and,
-    Heidari, Semko and,
-    Dogan, Mahîr and,
-    Asadi, Pedram and,
-    Bashir, Dashne and,
-    Ghodrati, Mohammad Amin and,
-    Amini, Kourosh and,
-    Ashourinezhad, Zeynab and,
-    Baladi, Mana and,
-    Ezzati, Farshid and,
-    Ghasemifar, Alireza and,
-    Hosseinpour, Daryoush and,
-    Abbaszadeh, Behrooz and,
-    Hassanpour, Amin and,
-    Jalal Hamaamin, Bahaddin and,
-    Kamal Hama, Saya and,
-    Mousavi, Ardeshir and,
-    Nazir Hussein, Sarko and,
-    Nejadgholi, Isar and,
-    Ölmez, Mehmet and,
-    Osmanpour, Horam and,
-    Roshan Ramezani, Rashid and,
-    Sediq Aziz, Aryan and,
-    Salehi Sheikhalikelayeh, Ali and,
-    Yadegari, Mohammadreza and,
-    Yadegari, Kewyar and,
+    Ahmadi, Sina and 
+    Sennrich, Rico and 
+    Karami, Erfan and 
+    Marani, Ako and 
+    Fekrazad, Parviz and 
+    Akbarzadeh Baghban, Gholamreza and 
+    Hadi, Hanah and 
+    Heidari, Semko and 
+    Dogan, Mahîr and 
+    Asadi, Pedram and 
+    Bashir, Dashne and 
+    Ghodrati, Mohammad Amin and 
+    Amini, Kourosh and 
+    Ashourinezhad, Zeynab and 
+    Baladi, Mana and 
+    Ezzati, Farshid and 
+    Ghasemifar, Alireza and 
+    Hosseinpour, Daryoush and 
+    Abbaszadeh, Behrooz and 
+    Hassanpour, Amin and 
+    Jalal Hamaamin, Bahaddin and 
+    Kamal Hama, Saya and 
+    Mousavi, Ardeshir and 
+    Nazir Hussein, Sarko and 
+    Nejadgholi, Isar and 
+    Ölmez, Mehmet and 
+    Osmanpour, Horam and 
+    Roshan Ramezani, Rashid and 
+    Sediq Aziz, Aryan and 
+    Salehi Sheikhalikelayeh, Ali and 
+    Yadegari, Mohammadreza and 
+    Yadegari, Kewyar and 
     Zamani Roodsari, Sedighe
     },
-   publisher = {Association for Computational Linguistics},
-   year = {2025},
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics"
 }
 ```
