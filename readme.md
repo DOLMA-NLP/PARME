@@ -86,8 +86,8 @@ Although it's not the main contribution of the project, we release all the scrip
 - [`nllb_prepare_data.py`](codes/nllb_prepare_data.py): Prepares datasets for NLLB fine-tuning with both base and augmented configurations.
 - [`combine_data.py`](codes/combine_data.py): merges all the individual jsonl files into one
 - [`prepend_lang_code.py`](codes/prepend_lang_code.py): prepends language indicator token to the beginning of each sentence.
-- [`sampler_size.py`](codes/sampler.py): samples from the datasets by incrementally selecting 100 sentences per language. Commands to train models on these samples are provided in [`codes/train_samples.sh`](codes/train_samples.sh).
-- [`sampler_exclusive.py`](codes/sampler_ablation.py): creates samples of 1000 sentences missing data from a language each time.
+- [`sampler_size.py`](codes/sampler_size.py): samples from the datasets by incrementally selecting 100 sentences per language. Commands to train models on these samples are provided in [`codes/train_samples.sh`](codes/train_samples.sh).
+- [`sampler_exclusive.py`](codes/sampler_exclusive.py): creates samples of 1000 sentences missing data from a language each time.
 
 ### Fine-tuning
 
@@ -98,7 +98,7 @@ Although it's not the main contribution of the project, we release all the scrip
 ### Evaluation
 
 - [`evaluate-zero-shot.py`](codes/evaluate-zero-shot.py): zero-shot evaluation of NLLB
-- [`scorer.py`](codes/scorer.p): calculates BLEU & chrF scores on the output of the zero-shot evaluation
+- [`scorer.py`](codes/scorer.py): calculates BLEU & chrF scores on the output of the zero-shot evaluation
 - [`models_evaluate.py`](codes/models_evaluate.py): evaluates fine-tuned models
 - [`pes-eng-bleu.py`](codes/pes-eng-bleu.py): calculates BLEU & chrF on the translation of the second reference (in Farsi or Kurmanji)
 
